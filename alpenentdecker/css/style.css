@@ -66,11 +66,15 @@ a:hover {
 	z-index:100;
 	top:0;
 	left:0;
-	padding-top:30px;
 }
 
 #head nav {
-	float:right;
+	padding-left: 250px;
+	padding-right: 200px;
+}
+
+#head nav a {
+	padding-top: 20px;
 }
 
 #head nav ul {
@@ -116,11 +120,16 @@ a:hover {
 	transition:0.3s all ease-in-out;
 }
 
+#head nav .bg-navbar {
+	background: #055663
+}
+
 #head nav ul li a:hover {
 	color:#5c4b27;
 	background:#fff;
 	text-decoration:none;
 }
+
 
 #hero {
 	position:relative;

@@ -14,25 +14,89 @@
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
 
     <!-- Mein CSS -->
-    <link rel="stylesheet" href="css/style.css"
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Javascript function for collabsable Menu -->
+    <script src="js/menu.js"></script>
+
+    <!--jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!--Script to add the collapse logic-->
+    <script>
+      $(document).ready(function () {
+        // when the page loads
+        autocollapse("#nav", 51);
+
+        // when the window is resized
+        $(window).on("resize", function () {
+          autocollapse("#nav", 51);
+        });
+      });
+    </script>
 
 </head>
 <body>
 
 <header>
     <div id="head">
-        <div class="container">
-            <a  href="#"><img src="img/logo.png"></a>
-            <nav>
-                <ul>
-                    <li><a href="#">Start</a></li>
-                    <li><a href="#">Veranstaltungen</a></li>
-                    <li><a href="#">Termine</a></li>
-                    <li><a href="#">Über</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Kontakt</a></li>
-                </ul>
-            </nav>
+            <nav class="navbar navbar-expand navbar-dark bg-navbar">
+                <a  href="#"><img src="img/logo.png"></a>
+                <div class="container-fluid">
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div
+                    class="collapse navbar-collapse justify-content-end"
+                    id="navbarNavDropdown"
+                  >
+                    <ul class="navbar-nav align-self-end flex-wrap" id="nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Start</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Veranstaltungen</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Termine</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Über</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Kontakt</a>
+                      </li>
+                      <li class="nav-item dropdown d-none">
+                        <a
+                          class="nav-link"
+                          href="#"
+                          id="navbarDropdownMenu"
+                          role="button"
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                        >
+                          <span class="navbar-toggler-icon"></span>
+                        </a>
+                        <ul
+                          class="dropdown-menu dropdown-menu-right bg-navbar"
+                          aria-labelledby="navbarDropdownMenu"
+                        ></ul>
+                      </li>
+                    </ul>
+                </div>
+              </nav>
         </div>
     </div>
 

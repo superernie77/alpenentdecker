@@ -2,6 +2,7 @@ var autocollapse = function (menu,maxHeight) {
     
     var nav = $(menu);
     var navHeight = nav.innerHeight();
+    // menü ist 2 zeilsen groß => element ist umgebrochen worden => in das menü setzen
     if (navHeight >= maxHeight) {
         
         $(menu + ' .dropdown').removeClass('d-none');
@@ -17,6 +18,7 @@ var autocollapse = function (menu,maxHeight) {
         $(".navbar-nav").addClass("w-auto").removeClass('w-100');
         
     }
+    // menü ist nur eine zeile groß
     else {
         
         var collapsed = $(menu + ' .dropdown-menu').children(menu + ' li');
@@ -25,7 +27,7 @@ var autocollapse = function (menu,maxHeight) {
           $(menu + ' .dropdown').addClass('d-none');
         }
       
-        while (navHeight < maxHeight && (nav.children(menu + ' li').length > 0) && collapsed.length > 0) {
+        while (navHeight <= maxHeight && (nav.children(menu + ' li').length > 0) && collapsed.length > 0) {
             //  remove child from dropdown
             collapsed = $(menu + ' .dropdown-menu').children('li');
             $(collapsed[0]).insertBefore(nav.children(menu + ' li:last-child'));
@@ -37,16 +39,3 @@ var autocollapse = function (menu,maxHeight) {
         }
     }
 }
-
-$(document).ready(function () {
-
-    alert('document ready');
-    // when the page loads
-    autocollapse('#nav',50); 
-    
-    // when the window is resized
-    $(window).on('resize', function () {
-        autocollapse('#nav',50); 
-    });
-
-});
