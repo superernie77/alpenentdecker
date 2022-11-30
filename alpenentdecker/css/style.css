@@ -177,4 +177,30 @@ a:hover {
 	margin:40px 0;
 }
 
+/* Footer */
+
+footer {
+	width:100%;
+	text-align:center;
+	color:#bfbfbf;
+	background:  #055663;
+	padding:2em 0 1em 0;
+}
+
+footer a {
+	color: #bfbfbf;
+}
+
+footer a img {
+	margin: 10px;
+}
+
+footer p a  {
+	margin-right: 10px;
+}
+
+footer .copyright{
+	font-size: 12px;
+}
+
 
