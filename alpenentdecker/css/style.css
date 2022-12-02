@@ -168,6 +168,33 @@ a:hover {
 	position:relative;
 }
 
+/* Card */
+
+.card {
+	background:rgba(0,0,0,.05);
+	border:none;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+.card p {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card .btn-teaser {
+	background:#5c4b3d;
+	color:#fff;
+	font-size:17px;
+}
+
+.card .btn-teaser:hover {
+	background:#bfbfbf;
+}
+
+.card-title {
+	font-size:22px;
+	margin-bottom:10px;
+	display:block;
+}
 
 /* Carousel */
 
