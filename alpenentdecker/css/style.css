@@ -170,6 +170,15 @@ a:hover {
 
 /* Card */
 
+.card .zoom {
+	padding: 5px;
+	transition: transform .2s; /* Animation */
+  }
+  
+ .card .zoom:hover {
+	transform: scale(1.02); /* 2% zoom */
+}
+
 .card {
 	background:rgba(0,0,0,.05);
 	border:none;
