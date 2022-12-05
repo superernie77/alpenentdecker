@@ -58,6 +58,11 @@ a:hover {
 	box-shadow:none;
 }
 
+.content {
+	padding:40px 0;
+	position:relative;
+}
+
 /* Header / Navbar */
 
 #head {
@@ -158,11 +163,6 @@ a:hover {
 	color:#fff;
 	transform:translateY(-50%);
 	text-align:center;
-}
-
-.content {
-	padding:40px 0;
-	position:relative;
 }
 
 /* Card */
