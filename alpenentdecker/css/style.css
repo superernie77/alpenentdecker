@@ -51,7 +51,7 @@ a:hover {
 }
 
 .container {
-	max-width:1200px;
+	max-width:1300px;
 }
 
 .btn.focus, .btn:focus {
@@ -71,6 +71,7 @@ a:hover {
 	z-index:100;
 	top:0;
 	left:0;
+	background: #055663
 }
 
 #head nav {
@@ -136,12 +137,14 @@ a:hover {
 
 #hero {
 	position:relative;
-	height:720px;
+	height:520px;
 	width:100%;
-	background:url("../img/hero_image3.png");
+	margin-top: 110px;
+	background:url("../img/ueber_alpen.jpeg");
 	background-size: 100% 100%;
 	background-repeat:no-repeat;
 }
+
 
 #hero:before {
 	opacity:.9;
@@ -209,6 +212,17 @@ a:hover {
 	padding:80px 0;
 	margin:40px 0;
 }
+
+.carousel .item {
+	height: 100px;
+  }
+  
+.item img {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  min-height: 100px;
+  }
 
 /* Footer */
 

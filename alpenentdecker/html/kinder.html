@@ -21,79 +21,51 @@
 <body>
 
     <header>
-        <div id="head">
-                <nav class="navbar navbar-expand navbar-dark bg-navbar">
-                    <a  href="../index.html"><img src="../img/logo.png"></a>
-                    <div class="container-fluid">
-                      <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#navbarNavDropdown"
-                        aria-controls="navbarNavDropdown"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                      >
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div
-                        class="collapse navbar-collapse justify-content-end"
-                        id="navbarNavDropdown"
-                      >
-                        <ul class="navbar-nav align-self-end flex-wrap" id="nav">
-                          <li class="nav-item">
-                            <a class="nav-link" href="../index.html">Start</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Veranstaltungen</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="kinder.html">Kinder & Jugendliche </a>
-                                <a class="dropdown-item" href="familien.html">Familien</a>
-                                <a class="dropdown-item" href="frauen.html">Frauen</a>
-                                <a class="dropdown-item" href="firmen.html">Firmen</a>
-                            </div>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="termine.html">Termine</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Über</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="uns.html">uns</a>
-                                <a class="dropdown-item" href="alpen.html">die Alpen</a>
-                                <a class="dropdown-item" href="infos.html">praktische Infos</a>  
-                            </div>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="faq.html">FAQ</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="kontakt.html">Kontakt</a>
-                          </li>
-                          <li class="nav-item dropdown d-none">
-                            <a
-                              class="nav-link"
-                              href="#"
-                              id="navbarDropdownMenu"
-                              role="button"
-                              data-toggle="dropdown"
-                              aria-haspopup="true"
-                              aria-expanded="false"
-                            >
-                              <span class="navbar-toggler-icon"></span>
-                            </a>
-                            <ul
-                              class="dropdown-menu dropdown-menu-right bg-navbar"
-                              aria-labelledby="navbarDropdownMenu"
-                            ></ul>
-                          </li>
+      <div id="head">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-navbar">
+            <!--Logo rechts-->
+            <a  class="navbar-brand" href="../index.html"><img src="../img/logo.png"></a>
+
+            <!--Navbar Button für kleine Screens -->
+            <button class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Inhalt Menü-->
+            <div class="collapse navbar-collapse justify-content-end bg-navbar" id="navbarNavDropdown">
+                <ul class="navbar-nav align-self-end flex-wrap" id="nav">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Start</a></li>
+                    <!--Submenü Veranstaltungen-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown">Veranstaltungen</a>
+                        <ul class="dropdown-menu dropdown-menu-right bg-navbar">
+                            <li><a class="dropdown-item" href="kinder.html">Kinder & Jugendliche </a></li>
+                            <li><a class="dropdown-item" href="familien.html">Familien</a></li>
+                            <li><a class="dropdown-item" href="frauen.html">Frauen</a></li>
+                            <li><a class="dropdown-item" href="firmen.html">Firmen</a></li>
                         </ul>
-                    </div>
-                  </nav>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="termine.html">Termine</a></li>
+                    <!--Submenü Über-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Über</a>
+                        <ul class="dropdown-menu dropdown-menu-right bg-navbar">
+                            <li><a class="dropdown-item" href="uns.html">Über uns</a></li>
+                            <li><a class="dropdown-item" href="alpen.html">Die Alpen</a></li>
+                            <li><a class="dropdown-item" href="infos.html">Praktische Infos</a>  </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+                </ul>
             </div>
-        </div>
+        </nav>
+    </div>
     
-        <div id="hero">
+    <div id="hero" style="background:url('../img/ueber_firmen.jpeg');background-repeat:no-repeat;background-size: 100% 100%;">
             <div class="hero-content">
         </div>
     </header>
