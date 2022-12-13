@@ -133,6 +133,16 @@ a:hover {
 	text-decoration:none;
 }
 
+.btn-teaser {
+	background:#5c4b3d;
+	color:#fff;
+	font-size:17px;
+}
+
+.btn-teaser:hover {
+	background:#bfbfbf;
+}
+
 /* Hero Banner */
 
 #hero {
@@ -213,16 +223,15 @@ a:hover {
 	margin:40px 0;
 }
 
-.carousel .item {
-	height: 100px;
-  }
-  
-.item img {
-	  position: absolute;
-	  top: 0;
-	  left: 0;
-	  min-height: 100px;
-  }
+.sliderbox .carousel-inner{
+    height: 450px;
+}
+
+.sliderbox .item {
+    height: 90% !important;
+    width:  90% !important;
+    border: 1px solid red;
+}
 
 /* Footer */
 
