@@ -27,6 +27,7 @@ a:hover {
 	color:#055663;
 }
 
+
 /* FK HEADLINES */
 
 .h2, h2, .h3, h3 {
@@ -134,7 +135,7 @@ a:hover {
 }
 
 .btn-teaser {
-	background:#5c4b3d;
+	background:#055663;
 	color:#fff;
 	font-size:17px;
 }
@@ -200,7 +201,7 @@ a:hover {
 }
 
 .card .btn-teaser {
-	background:#5c4b3d;
+	background:#055663;
 	color:#fff;
 	font-size:17px;
 }
@@ -215,22 +216,9 @@ a:hover {
 	display:block;
 }
 
-/* Carousel */
-
-.sliderbox {
-	background:#5c4b3d;
-	padding:80px 0;
-	margin:40px 0;
-}
-
-.sliderbox .carousel-inner{
-    height: 450px;
-}
-
-.sliderbox .item {
-    height: 90% !important;
-    width:  90% !important;
-    border: 1px solid red;
+.tableline {
+	color: #5c4b27;
+	height: 2px;
 }
 
 /* Footer */
