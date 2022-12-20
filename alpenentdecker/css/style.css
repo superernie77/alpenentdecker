@@ -80,7 +80,7 @@ a:hover {
 	padding-right: 200px;
 }
 
-#head nav .bg-navbar {
+#head .bg-navbar {
 	background: #055663
 }
 
@@ -144,6 +144,15 @@ a:hover {
 	background:#bfbfbf;
 }
 
+.banner-caption {
+	background-color:#055663;
+	font-family: 'Rajdhani', sans-serif;
+	color:#bfbfbf;
+	padding:10px;
+	text-align:center;
+	padding: 20px;
+}
+
 /* Hero Banner */
 
 .banner {
@@ -187,6 +196,10 @@ a:hover {
 }
 
 /* Card */
+
+.row {
+    margin-top: 15px;
+}
 
 .card .zoom {
 	padding: 5px;
