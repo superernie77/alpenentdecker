@@ -87,7 +87,7 @@
           $text = test_input($_POST["review"]);
           $phone = test_input($_POST["phone"]);
  
-          $to = "superernie77@gmail.com";
+          $to = "info@alpenentdecker.de";
           $subject = "Anfrage über Alpenentdecker";
        
           $message = "<b>Neue Kontaktanfrage von Alpenentdecker</b>";
