@@ -19,24 +19,24 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown">Veranstaltungen</a>
                             <ul class="dropdown-menu dropdown-menu-right bg-navbar">
-                                <li><a class="dropdown-item" href="kinder.html">Kinder & Jugendliche </a></li>
-                                <li><a class="dropdown-item" href="familien.html">Familien</a></li>
-                                <li><a class="dropdown-item" href="frauen.html">Frauen</a></li>
-                                <li><a class="dropdown-item" href="firmen.html">Firmen</a></li>
+                                <li><a class="dropdown-item" href="kinder.php">Kinder & Jugendliche </a></li>
+                                <li><a class="dropdown-item" href="familien.php">Familien</a></li>
+                                <li><a class="dropdown-item" href="frauen.php">Frauen</a></li>
+                                <li><a class="dropdown-item" href="firmen.php">Firmen</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="termine.html">Termine</a></li>
+                        <li class="nav-item"><a class="nav-link" href="termine.php">Termine</a></li>
                         <!--Submenü Über-->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Über</a>
                             <ul class="dropdown-menu dropdown-menu-right bg-navbar">
-                                <li><a class="dropdown-item" href="uns.html">Über uns</a></li>
-                                <li><a class="dropdown-item" href="alpen.html">Die Alpen</a></li>
-                                <li><a class="dropdown-item" href="infos.html">Praktische Infos</a>  </li>
+                                <li><a class="dropdown-item" href="uns.php">Über uns</a></li>
+                                <li><a class="dropdown-item" href="alpen.php">Die Alpen</a></li>
+                                <li><a class="dropdown-item" href="infos.php">Praktische Infos</a>  </li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
-                        <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+                        <li class="nav-item"><a class="nav-link" href="faq.php">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="kontakt.php">Kontakt</a></li>
                     </ul>
                 </div>
             </nav>
